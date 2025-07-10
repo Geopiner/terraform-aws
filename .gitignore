@@ -1,0 +1,15 @@
+# Ignore Terraform local state and backup files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform variable files containing secrets
+*.tfvars
+
+# Ignore the local Terraform directory with providers and cache
+.terraform/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore private keys folder
+keys/
