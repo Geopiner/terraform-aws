@@ -13,3 +13,5 @@
 
 # Ignore private keys folder
 keys/
+
+.DS_Store
